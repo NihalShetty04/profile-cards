@@ -1,16 +1,25 @@
-# React + Vite
+# Interactive Profile Card System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a React-based application that displays multiple user profile cards using reusable components. Each card shows user details and includes a follow/unfollow button that updates dynamically based on user interaction. The project focuses on understanding core React concepts and building a clean, modern UI.
 
-Currently, two official plugins are available:
+## Features
+- Reusable ProfileCard component
+- Follow / Unfollow toggle functionality
+- Dynamic data using props
+- Conditional rendering
+- Multiple cards rendered using map()
+- Responsive and modern UI design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Vite
+- Node.js & npm
+- Git & GitHub
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  How to Run
+npm install
+npm run dev
